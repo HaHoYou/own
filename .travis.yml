@@ -1,0 +1,8 @@
+language: python
+
+matrix:
+  include:
+    - name: "tryonMac"
+      os: osx
+      script:
+        - ( uname; hostname; python a.py)
